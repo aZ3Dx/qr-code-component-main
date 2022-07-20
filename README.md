@@ -28,8 +28,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/aZ3Dx/qr-code-component-main)
-- Live Site URL: [Add live site URL here](https://az3dx.github.io/qr-code-component-main/)
+- Solution URL: [Here 🐱‍👤](https://github.com/aZ3Dx/qr-code-component-main)
+- Live Site URL: [Here 📟](https://az3dx.github.io/qr-code-component-main/)
 
 ## My process
 
