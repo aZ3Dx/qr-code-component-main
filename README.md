@@ -20,7 +20,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 Desktop
 
-![](design/my-design.png)
+![](design/my-design-desktop.png)
 
 Mobile
 
@@ -35,6 +35,7 @@ Mobile
 
 ### Built with
 
+- CSS custom properties
 - Flexbox
 - Mobile-first workflow
 

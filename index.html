@@ -10,15 +10,21 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+    :root {
+      --white-color: hsl(0, 0%, 100%);
+      --light-gray-color: hsl(212, 45%, 89%);
+      --grayish-blue-color: hsl(220, 15%, 55%);
+      --dark-blue: hsl(218, 44%, 22%);
+    }
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      font-family: 'Commissioner', sans-serif;
+      font-family: 'Outfit', sans-serif;
     }
     body {
-      background-color: #D4E0EE;
+      background-color: var(--light-gray-color);
     }
     main {
       height: 100vh;
@@ -28,7 +34,7 @@
       justify-content: center;
     }
     .main-container {
-      background-color: #FFFFFF;
+      background-color: var(--white-color);
       max-width: 320px;
       border-radius: 20px;
       padding: 15px;
@@ -45,17 +51,20 @@
       margin-bottom: 1.2rem;
     }
     h1 {
-      font-size: 1.3rem;
+      font-size: 22px;
       line-height: 1.8rem;
+      font-weight: 700;
       text-align: center;
+      color: var(--dark-blue);
     }
     .container-desc {
       margin-bottom: 1.8rem;
     }
     .container-desc p {
-      font-size: .9rem;
+      font-size: 15px;
+      font-weight: 400;
       text-align: center;
-      color: #A2A5AB;
+      color: var(--grayish-blue-color);
     }
   </style>
 </head>
